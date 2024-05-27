@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tab {
+  @apply focus:outline-none bg-red-50 focus:text-red-600 text-red-500 focus:bg-red-200
+}
